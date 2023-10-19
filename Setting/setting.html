@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setting</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/setting.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.1/cerulean/bootstrap.min.css"
+      integrity="sha512-PAOyjTswfBAZ1fUNWJ8Ct+5DJCTncB+7cLhppp88N9GCF7lZ4AIDmVTKVQFYIVZwH5Y0KAP/16+lsyFmhbc4Tg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="right">
+        <img
+          src="IMG/647c106477f8934b266ba39c_profile-picture-og.webp"
+          alt="profile-image"
+          class="IMG"
+        />
+        <h4>Yasmen Ahmed</h4>
+        <h6>emailAddress@gmail.com</h6>
+        <label for="profileing" class="btn btn-primary mt-2" id="selBtn"
+          >Update Profile Image</label
+        >
+      </div>
+      <div class="left">
+        <h2>Profile Setting</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">First name</label>
+            <input type="text" class="form-control" id="inputEmail4" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="inputPassword4" />
+          </div>
+
+          <div class="col-12 Color">
+            <label for="inputAddress" class="form-label">Mobile</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <label style="color: rgb(238, 231, 231); font-weight: 600"
+            >Username</label
+          >
+          <div class="input-group flex-nowrap">
+            <span
+              class="input-group-text"
+              id="addon-wrapping"
+              style="color: #640941"
+              >@</span
+            >
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+          </div>
+
+          <div class="mb-3 Color">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div>
+            <label for="inputPassword5" class="form-label">Password</label>
+            <input
+              type="password"
+              id="inputPassword5"
+              class="form-control"
+              aria-describedby="passwordHelpBlock"
+              style="padding: -10px"
+            />
+            <div id="passwordHelpBlock" class="form-text">
+              Your password must be 8-20 characters long, contain letters and
+              numbers, and must not contain spaces, special characters, or
+              emoji.
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Track</label>
+            <select
+              id="inputState"
+              class="form-select"
+              style="
+                background-color: rgb(185, 185, 185);
+                color: black;
+                width: 310%;
+              "
+            >
+              <option selected>Choose...</option>
+              <option>Front-End</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <button
+              type="submit"
+              class="btn btn-primary w-100"
+              style="background-color: black; border-color: grey"
+            >
+              Update My Profile
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_jquery_3.7.0_jquery.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_popper.js_2.11.8_umd_popper.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_bootstrap_5.3.0_js_bootstrap.min.js"></script>
+  </body>
+</html>

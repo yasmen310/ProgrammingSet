@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <link rel="stylesheet" href="book.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="left">
+          <h1 class="logo">online store</h1>
+        </div>
+        <div class="right">
+          <div class="search">
+            <input type="text" placeholder="search..." />
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          </div>
+
+          <div class="shopping">
+            <span class="shop_icon"
+              ><i class="fa-solid fa-basket-shopping"></i
+            ></span>
+            <span class="shop_count">2</span>
+          </div>
+        </div>
+
+        <div class="shop_cashier hiddenClass">
+          <div class="added_products">
+            <div class="product">
+              <img src="photo/41uCGaAP1WL._SX404_BO1,204,203,200_.jpg" alt="" />
+              <div class="texts">
+                <h1>Responsive Web Design</h1>
+                <p>
+                  Responsive Web Design with HTML5 and CSS: Build future-proof
+                  responsive websites using the latest HTML5 and CSS techniquess
+                </p>
+                <span class="price">34.08$</span>
+                <div class="bTNS">
+                  <div class="number">
+                    <button id="btnp1">+</button>
+                    <span>1</span>
+                    <button id="btnm1">-</button>
+                  </div>
+                  <div class="remove">
+                    <button>Remove</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <img src="photo/51buIuje-dL._SX404_BO1,204,203,200_.jpg" alt="" />
+              <div class="texts">
+                <h1>HTML and CSS QuickStart Guide.</h1>
+                <p>
+                  HTML and CSS QuickStart Guide: The Simplified Beginners Guide
+                  to Developing a Strong Coding Foundation, Building Responsive
+                  Websites, and Mastering ... Web Design
+                </p>
+                <span class="price">29.99$</span>
+                <div class="bTNS">
+                  <div class="number">
+                    <button id="btnp1">+</button>
+                    <span>1</span>
+                    <button id="btnm1">-</button>
+                  </div>
+                  <div class="remove">
+                    <button>Remove</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="removeAll btn">Remove All</button>
+            <div class="total_price">
+              <div class="price">
+                <h1>Total Price</h1>
+                <h1 class="total">64.07$</h1>
+              </div>
+              <a href="../Checkout/checkout.html"
+                ><button class="btn">Process the payment</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="product">
+          <div class="image">
+            <img src="photo/41uCGaAP1WL._SX404_BO1,204,203,200_.jpg" alt="" />
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>Responsive Web Design</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">34.08$</span>
+            <p class="desc">
+              Responsive Web Design with HTML5 and CSS: Build future-proof
+              responsive websites using the latest HTML5 and CSS techniquess
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/51buIuje-dL._SX404_BO1,204,203,200_.jpg" alt="" />
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>HTML and CSS QuickStart</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">29.99$</span>
+            <p class="desc">
+              HTML and CSS QuickStart Guide: The Simplified Beginners Guide to
+              Developing a Strong Coding Foundation.
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="photo/51FiEVGT+hL._SX396_BO1,204,203,200_.jpg" alt="" />
+
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>C++</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">44.73$</span>
+            <p class="desc">
+              The C++ Programming Language,This book features an enhanced,
+              layflat binding, which allows the book to stay open more easily
+              when placed on a flat surface.
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/413go008WpL._SX384_BO1,204,203,200_.jpg" alt="" />
+
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>Microsoft Office 365</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">17.79$</span>
+            <p class="desc">
+              Microsoft Office 365 For Beginners: The 1# Crash Course From
+              Beginners To Advanced. Easy Way to Master The Whole Suite in no
+              Time
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/51UQ9v8VIhL._SX448_BO1,204,203,200_.jpg" alt="" />
+
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>Python</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">59.95$</span>
+            <p class="desc">
+              Python 3: The Comprehensive Guide to Hands-On Python Programming
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/51mEyiR46fL._SX437_BO1,204,203,200_.jpg" alt="" />
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>Node.js</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">67$</span>
+            <p class="desc">
+              Node.js: The Comprehensive Guide to Server-Side JavaScript
+              Programming (Rheinwerk Computing)
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/51yjm1DR01L.jpg" alt="" />
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+
+          <div class="product_body">
+            <h1>CompTIA Security+</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">45.29$</span>
+            <p class="desc">
+              Get complete coverage of all objectives included on the CompTIA
+              Security+ exam SY0-601 from this comprehensive resource.
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/51pFZgF3U+S.jpg" alt="" />
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>Universo Flutter</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">67$</span>
+            <p class="desc">
+              Flutter 2.0 Playlist de vídeos de FlutterEngage FlutterFolio
+              gskinner multiplataforma Dart 2.12 com Null Safety Widget
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/41LQ2IQO5fL._SX397_BO1,204,203,200_.jpg" alt="" />
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>CompTIA Network+</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">35.50$</span>
+            <p class="desc">
+              In the newly revised Fifth Edition of CompTIA Network+ Study Guide
+              Exam N10-008, bestselling author and network
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/51ksiTHizaS._SX404_BO1,204,203,200_.jpg" alt="" />
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>Embedded Systems Architecture</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">20.43$</span>
+            <p class="desc">
+              Embedded Systems Architecture: Explore architectural concepts,
+              pragmatic design patterns, and best practices to produce robust
+              systems
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/51YB0gZp+aL._SX404_BO1,204,203,200_.jpg" alt="" />
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>JavaScript</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">67$</span>
+            <p class="desc">
+              JavaScript from Beginner to Professional: Learn JavaScript quickly
+              by building fun, interactive, and dynamic web apps, games.
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="image">
+            <img src="photo/41MpIX1MRAL._SX322_BO1,204,203,200_.jpg" alt="" />
+            <div class="buttons">
+              <span class="addProduct"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <span class="seeProduct"><i class="fa-solid fa-eye"></i></span>
+            </div>
+          </div>
+          <div class="product_body">
+            <h1>ChatGPT</h1>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <span class="price">67$</span>
+            <p class="desc">
+              This is the simplest guide on how to make money quickly and easily
+              with ChatGPT (Updated for GPT-4)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="single_product hide">
+        <div class="product">
+          <img src="photo/41uCGaAP1WL._SX404_BO1,204,203,200_.jpg" alt="" />
+          <div class="details">
+            <h1>Responsive Web Design</h1>
+            <p>
+              Responsive Web Design with HTML5 and CSS: Build future-proof
+              responsive websites using the latest HTML5 and CSS techniquess
+            </p>
+            <div class="stars">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <p class="price">34.08$</p>
+            <div class="add">
+              <button class="addProduct">
+                <span class="shop_icon"
+                  ><i class="fa-solid fa-basket-shopping"></i></span
+                >Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="shadow">
+          <span class="close"><i class="fa-solid fa-rectangle-xmark"></i></span>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis veniam
+          suscipit optio explicabo rerum odio eum nam consequatur recusandae ex.
+        </p>
+      </footer>
+    </div>
+    <script src="book.js"></script>
+  </body>
+</html>

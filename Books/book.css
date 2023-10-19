@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&;400,500,700;900family=Dancing+Script:wght@100;300;400;700;900&display=swap");
+@import url("./pageParts/header.css");
+@import url("./pageParts/products.css");
+@import url("./pageParts/shop.css");
+@import url("./pageParts/singleProduct.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #cacaca;
+  --yellow: #fec959;
+  --cart-bg: #39384e;
+  --dark: #101012c2;
+  --hover: #27282cee;
+  --body: #192e3a;
+}
+body {
+  background-color: var(--body);
+  color: #fff;
+  margin: 2rem 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1250px;
+}
+.footer {
+  background-color: var(--green);
+  text-align: center;
+  border-radius: 5px;
+}
+.footer p {
+  color: var(--dark);
+  padding: 0.7rem 0;
+  font-size: 0.9rem;
+}
+@media (max-width: 999px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .footer p {
+    font-size: 0.7rem;
+  }
+}

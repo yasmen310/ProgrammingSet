@@ -1,0 +1,123 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 3rem;
+  background-color: #101025;
+  color: #a39d9d;
+}
+.carousel {
+  margin-bottom: 4rem;
+  margin-top: -100px;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.contentClass {
+  width: 60%;
+}
+.NTIgroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+}
+.NTIdes {
+  text-align: center;
+  width: 60%;
+  line-height: 30px;
+}
+.NTIimage {
+  width: 40%;
+  padding: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 2px gray;
+  overflow: hidden;
+  border-radius: 10px;
+  padding-left: 100px;
+}
+.NTIimage-rtl {
+  width: 40%;
+  padding: 10px;
+  margin-left: 10px;
+  box-shadow: 0px 0px 2px gray;
+  overflow: hidden;
+  border-radius: 10px;
+  padding-right: 100px;
+}
+
+textarea {
+  width: 60%;
+  min-height: 30px;
+  padding: 5px 5px 35px 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  background-color: rgb(158 158 158 / 20%);
+  margin-left: 20px;
+}
+#name-input,
+#email-input {
+  width: 60%;
+  min-height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(158 158 158 / 20%);
+  color: white;
+  margin-left: 20px;
+}
+.commentSection {
+  background-color: #000000;
+  border-top-right-radius: 200px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+button {
+  padding: 10px 30px;
+  background-color: #2ef334;
+  color: #fff;
+  margin-left: -40%;
+  border: none;
+  border-radius: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+/
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
